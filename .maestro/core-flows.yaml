@@ -1,0 +1,27 @@
+appId: com.example.homeplannerapp
+---
+- launchApp
+- assertVisible: 'Home'
+
+# Home -> search flow
+- tapOn: 'Search & Filters'
+- assertVisible: 'Results'
+- tapOn:
+    id: 'input'
+    index: 0
+- inputText: 'kitchen'
+- assertVisible: 'Results'
+
+# Calendar and event entry point
+- pressKey: back
+- tapOn: 'Calendar'
+- assertVisible: 'Add event'
+
+# Rooms and add-room entry point
+- tapOn: 'Rooms'
+- assertVisible: 'Add room'
+
+# Settings and theme controls
+- tapOn: 'Settings'
+- assertVisible: 'Project Settings'
+- assertVisible: 'Theme mode'

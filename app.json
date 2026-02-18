@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Home Planner App",
+    "slug": "home-planner-app",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {},
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": ["expo-sqlite", "@react-native-community/datetimepicker"]
+  }
+}

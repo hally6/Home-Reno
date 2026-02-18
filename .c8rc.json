@@ -1,0 +1,11 @@
+{
+  "all": true,
+  "include": [
+    ".test-dist/src/data/backup/backupValidation.js",
+    ".test-dist/src/data/repositories/*Rules.js",
+    ".test-dist/src/data/repositories/searchQuery.js",
+    ".test-dist/src/services/notificationScheduler.js"
+  ],
+  "exclude": [".test-dist/tests/**"],
+  "reporter": ["text", "lcov"]
+}

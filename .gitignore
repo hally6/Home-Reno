@@ -1,0 +1,9 @@
+node_modules
+.expo
+.expo-shared
+dist
+*.log
+coverage
+.test-dist
+.DS_Store
+Thumbs.db

@@ -1,0 +1,13 @@
+appId: com.example.homeplannerapp
+---
+- launchApp
+- assertVisible: 'Home'
+- tapOn: 'Search & Filters'
+- assertVisible: 'Results'
+- pressKey: back
+- tapOn: 'Rooms'
+- assertVisible: 'Add room'
+- tapOn: 'Calendar'
+- assertVisible: 'Add event'
+- tapOn: 'Settings'
+- assertVisible: 'Project Settings'
